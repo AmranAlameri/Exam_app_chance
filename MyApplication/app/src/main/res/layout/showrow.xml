@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:weightSum="1"
+        android:background="#ce5c15">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/name"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/password"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lname"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp" />
+
+        <Button
+            android:layout_width="93dp"
+            android:layout_height="match_parent"
+            android:text="Delete"
+            android:id="@+id/btnDelete"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"/>
+
+        <Button
+            android:layout_width="74dp"
+            android:layout_height="match_parent"
+            android:text="Edit"
+            android:id="@+id/btnEdit"
+            android:layout_weight="0.17"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"/>
+    </LinearLayout>
+
+</LinearLayout>
